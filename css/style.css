@@ -1,3 +1,34 @@
+.hero-header {
+   font-size: 3rem;
+   font-weight: bold;
+   line-height: 3.2rem;
+}
+
+.highlight-text {
+   color: var(--main-mid);
+}
+
+.separator {
+   width: 6rem;
+   border-bottom: 2px solid var(--main-mid);
+   padding-top: 1.2rem;
+   margin-bottom: 1.2rem;
+}
+
+.hero-buttons {
+   display: inline-block;
+   padding: 1.2rem 0;
+}
+
+.hero-button {
+   text-decoration: none;
+   width: 12rem;
+   padding: 1rem;
+   margin-right: 1rem;
+	background-color: var(--main-mid);
+	color: var(--main-dark);
+}
+
 .skills-container {
 	background-color: var(--main-dark);
 	padding: 1rem 0;

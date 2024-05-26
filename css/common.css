@@ -1,8 +1,8 @@
 :root {
-	--main-dark: #3B3923;
+	--main-dark: #f6f4ec;
 	--sub-dark: #767522;
-	--main-mid: #E0FF4F;
-	--main-light: #EFF7FF;
+	--main-mid: #902acf;
+	--main-light: #181818;
 	--sub-light: #C9C9C9;
 }
 
@@ -14,9 +14,10 @@
 html {
 	font-family: "Gruppo", sans-serif;
 	font-size: 1.1rem;
+	font-weight: 600;
 	line-height: 1.6rem;
-	color: var(--main-dark);
-	background-color: var(--main-light);
+	color: var(--main-light);
+	background-color: var(--main-dark);
 }
 
 .container {

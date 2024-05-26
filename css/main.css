@@ -1,0 +1,70 @@
+.skills-container {
+	background-color: var(--main-dark);
+	padding: 1rem 0;
+}
+
+/* Stylingthe last h2 tag by giving margin bottom */
+.progress-bar-container:not(:last-child) {
+	margin-bottom: 50px;
+}
+ 
+/* Styling the h2 tag by giving color, 
+letter spacing, font-size etc.*/
+.progress-bar-container h2 {
+	color: var(--main-light);
+   font-size: 1rem;
+}
+ 
+ /* Styling the border and box
+ effect of the progress bar*/
+.progress-bar {
+	
+   height: 1rem;
+   margin-top: 10px;
+   border: 1px solid var(--main-mid);
+   border-radius: 5px;
+   box-shadow: 0 0 10px var(--main-mid);
+}
+ 
+/* Stylingthe background color of each 
+animation and border radius */
+.percentage {
+	display: block;
+   height: 100%;
+   background-color: var(--main-mid);
+   border-radius: 4px 0px 0px 4px;
+   animation: progress 1500ms ease-in 1;
+}
+ 
+/* Assigning width of each languages*/
+.html {
+   width: 90%;
+}
+ 
+.css {
+   width: 80%;
+        }
+ 
+.javascript {
+   width: 65%;
+}
+ 
+.php {
+   width: 50%;
+}
+ 
+.mysql {
+   width: 40%;
+}
+ 
+.python {
+   width: 20%;
+}
+ 
+/* Animating the progress bar by 
+initially starting from 0*/
+@keyframes progress {
+	from {
+   	width: 0;
+   }
+}

@@ -52,16 +52,32 @@
 			<div class="hero-text">
 				<h1 class="hero-header">Hi, I'm Maxy<br />I'm a <span class="highlight-text">Web Developer</span></h1>
 				<div class="separator"></div>
-				<p>I'm a self-taught web developer who is looking to gain some hands-on experience in the field. I am extremely motivated and can offer a solid work ethic, uncompromised honesty, and loyalty which I would bring to every project. My problem-solving skills allow me to tackle complex challenges, and I’m passionate about staying up-to-date with industry trends. I feel that I am equipped to be able to contribute towards creating exceptional and exciting online experiences while adding to my knowledge base. Please get in touch if you think I may be a good fit for your company.</p>
+				<p class="hero-intro">I'm a self-taught web developer who is looking to gain some crucial hands-on experience within a professional environment. I am extremely motivated and can offer a solid work ethic, uncompromising honesty, and loyalty which I would bring to every project. My problem-solving skills allow me to tackle complex challenges with confidence, and I’m passionate about staying up-to-date with industry trends. I feel that I am equipped with the confidence to be able to contribute towards creating exceptional and exciting online experiences while developing and deepening my knowledge base. Please get in touch if you think I may be a good fit for your company.</p>
 				<div class="separator"></div>
 				<div class="hero-buttons">
-					<a class="hero-button" href="#">See Portfolio..</a>
-					<a class="hero-button" href="#">Get in touch..</a>
+					<a class="hero-button" href="#">See Portfolio...</a>
+					<a class="hero-button" href="#">Get in touch...</a>
+				</div>
+			</div>
+		</div>
+		<div class="project-preview-container">
+			<div class="container">
+				<h1 class="hero-header projects-hero-header">Projects Preview</h1>
+				<div class="project-card">
+					<img class="thumbnail" src="" alt="">
+					<div class="project-card-text">
+						<div class="project-date">24 May 2024</div>
+						<h2 class="project-card-title">Project One</h2>
+						<div class="separator"></div>
+						<p class="project-description">This section will give a brief description about the project and will provide a summary of the projects functions. The title and the image will be clickable and will take the user to either the live website or a page laying out the full details including full images of each page, and possibly a functionality preview if I am able to record one in Adobe XD or Figma.</p>
+					</div>
 				</div>
 			</div>
 		</div>
 		<div class="skills-container">
 			<div class="container">
+				<h1 class="hero-header hero-header-skills">Skills Self-Evaluation</h1>
+				<div class="separator"></div>
 				<div class="skills">
 					<div class="progress-bar-container">
 						<h2>HTML</h2>
@@ -110,6 +126,7 @@
 					<div class="nav-logo">
 						<a class="nav-logo-link" href="#">Maxy Hogg</a>
 					</div>
+					<div class="separator"></div>
 					<div class="footer-socials">
 						<a href="#" class="fa fa-github"></a>
 						<a href="#" class="fa fa-linkedin"></a>

@@ -5,14 +5,24 @@
 }
 
 .highlight-text {
-   color: var(--main-mid);
+   color: var(--col-pal3);
 }
 
 .separator {
    width: 6rem;
-   border-bottom: 2px solid var(--main-mid);
+   border-bottom: 2px solid var(--col-pal3);
    padding-top: 1.2rem;
    margin-bottom: 1.2rem;
+}
+
+.hero-text {
+   height: 100vh;
+   padding: 12rem 0;
+}
+
+.hero-intro {
+   border-right: 1.2rem solid var(--col-pal3);
+   padding-right: 1rem;;
 }
 
 .hero-buttons {
@@ -25,13 +35,69 @@
    width: 12rem;
    padding: 1rem;
    margin-right: 1rem;
-	background-color: var(--main-mid);
-	color: var(--main-dark);
+	background-color: var(--col-pal3);
+	color: var(--col-pal1);
+}
+
+.hero-button:hover {
+   background-color: var(--col-pal2);
+	text-decoration: underline;
+	color: var(--col-pal4);
 }
 
 .skills-container {
-	background-color: var(--main-dark);
+	background-color: var(--col-pal1);
 	padding: 1rem 0;
+}
+
+.hero-header-skills {
+   border-left: 1.2rem solid var(--col-pal3);
+   padding-left: 1rem;
+}
+
+.project-preview-container {
+   background-color: var(--col-pal5);
+   padding: 2rem 0;
+   margin-bottom: 2rem;
+}
+
+.projects-hero-header {
+   color: var(--col-pal4);
+   border-left: 1.2rem solid var(--col-pal3);
+   padding-left: 1rem;
+}
+
+.thumbnail {
+   display: block;
+   width: 100%;
+   height: 26rem;
+   min-height: 100%;
+   object-fit: cover;
+   margin: 0;
+}
+
+.project-card {
+   background-color: var(--col-pal1);
+   margin: 2rem 0;
+   border-radius: 0.8rem;
+   box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.3);
+   display: flex;
+   flex-direction: column;
+   overflow: hidden;
+}
+
+.project-card-text {
+   padding: 1.4rem;
+}
+
+@media (min-width: 1440px) {
+   .project-card {
+       flex-direction: row;
+   }
+}
+
+.project-date {
+   color: var(--col-pal3);
 }
 
 /* Stylingthe last h2 tag by giving margin bottom */
@@ -42,7 +108,7 @@
 /* Styling the h2 tag by giving color, 
 letter spacing, font-size etc.*/
 .progress-bar-container h2 {
-	color: var(--main-light);
+	color: var(--col-pal4);
    font-size: 1rem;
 }
  
@@ -52,9 +118,9 @@ letter spacing, font-size etc.*/
 	
    height: 1rem;
    margin-top: 10px;
-   border: 1px solid var(--main-mid);
+   border: 1px solid var(--col-pal3);
    border-radius: 5px;
-   box-shadow: 0 0 10px var(--main-mid);
+   box-shadow: 0 0 10px var(--col-pal3);
 }
  
 /* Stylingthe background color of each 
@@ -62,30 +128,30 @@ animation and border radius */
 .percentage {
 	display: block;
    height: 100%;
-   background-color: var(--main-mid);
+   background-color: var(--col-pal3);
    border-radius: 4px 0px 0px 4px;
    animation: progress 1500ms ease-in 1;
 }
  
 /* Assigning width of each languages*/
 .html {
-   width: 90%;
+   width: 80%;
 }
  
 .css {
-   width: 80%;
+   width: 70%;
         }
  
 .javascript {
-   width: 65%;
+   width: 55%;
 }
  
 .php {
-   width: 50%;
+   width: 55%;
 }
  
 .mysql {
-   width: 40%;
+   width: 30%;
 }
  
 .python {

@@ -21,6 +21,17 @@ html {
 	background-color: var(--col-pal1);
 }
 
+@keyframes fade {
+	0% {
+		opacity: 0;
+		transform: translate(0, 4rem);
+	}
+	100% {
+		opacity: 1;
+		transform: translate(0, 0);
+	}
+}
+
 .container {
 	margin: 0 1rem;
 }
@@ -194,4 +205,12 @@ html {
 .footer-sitemap-item:hover {
 	color: var(--col-pal2);
 	text-decoration: underline;
+}
+
+.in-view {
+	animation: fade 0.6s 0.6s both;
+}
+
+.out-of-view {
+	opacity: 0;
 }

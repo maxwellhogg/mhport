@@ -58,7 +58,7 @@
 
 .project-preview-container {
    background-color: var(--col-pal5);
-   padding: 2rem 0;
+   padding: 12rem 0;
    margin-bottom: 2rem;
 }
 
@@ -80,7 +80,7 @@
 .project-card {
    background-color: var(--col-pal1);
    margin: 2rem 0;
-   border-radius: 0.8rem;
+   /* border-radius: 0.8rem; */
    box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.3);
    display: flex;
    flex-direction: column;
@@ -99,6 +99,10 @@
 
 .project-date {
    color: var(--col-pal3);
+}
+
+.skills-container {
+   padding: 12rem 0;
 }
 
 /* Stylingthe last h2 tag by giving margin bottom */
@@ -120,7 +124,7 @@ letter spacing, font-size etc.*/
    height: 1rem;
    margin-top: 10px;
    border: 1px solid var(--col-pal3);
-   border-radius: 5px;
+   /* border-radius: 5px; */
    box-shadow: 0 0 10px var(--col-pal3);
 }
  
@@ -130,7 +134,7 @@ animation and border radius */
 	display: block;
    height: 100%;
    background-color: var(--col-pal3);
-   border-radius: 4px 0px 0px 4px;
+   /* border-radius: 4px 0px 0px 4px; */
    animation: progress 1500ms ease-in 1;
 }
  

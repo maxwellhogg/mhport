@@ -9,8 +9,9 @@
   	<meta name="Maxwell Hogg" content="Portfolio">
   	<link rel="preconnect" href="https://fonts.googleapis.com">
   	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap" rel="stylesheet">
   	<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Gruppo&display=swap" rel="stylesheet">
-  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  	
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/common.css">
   	<link rel="stylesheet" href="css/style.css">
 </head>

@@ -98,7 +98,83 @@
 }
 
 .project-date {
-   color: var(--col-pal3);
+   float: right;
+   padding: 0.4rem;
+   margin-bottom: 1rem;
+   color: var(--col-pal2);
+   text-transform: uppercase;
+   border: 2px solid var(--col-pal2);
+}
+
+.project-button {
+   text-decoration: none;
+   color: var(--col-pal4);
+   background: var(--col-pal2);
+   line-height: 5rem;
+   padding: 1rem;
+}
+
+.project-button:hover {
+   background: var(--col-pal3);
+   text-decoration: underline;
+   color: var(--col-pal1);
+}
+
+.project-tools {
+   margin: 1.4rem 0;
+   display: flex;
+   font-size: 0.6rem;
+   font-weight: 200;
+   gap: 1rem;
+}
+
+.project-tool {
+   background: var(--col-pal5);
+   width: 3.2rem;
+   text-align: center;
+}
+
+.pagination {
+   list-style: none;
+   display: flex;
+   justify-content: flex-end;
+   gap: 0.4rem;
+   margin: 0;
+   padding: 0;
+}
+
+.pagination-link {
+   display: block;
+   color: var(--main-dark);
+   border: 2px solid var(--col-pal4);
+   width: 2rem;
+   height: 2rem;
+   text-decoration: none;
+   text-align: center;
+   line-height: 2rem;;
+}
+
+.pagination-link:hover {
+   color: var(--main-light);
+   border: 2px solid var(--col-pal2);
+   background-color: var(--col-pal2);
+}
+
+.pagination-link-active {
+   border: 2px solid var(--col-pal2);
+   color: 2px solid var(--col-pal2);
+}
+
+.pagination-link-arrow {
+   border: 2px solid var(--col-pal2);
+   color: var(--main-light);
+   background-color: var(--col-pal2);
+}
+
+.pagination-link-arrow:hover {
+   border: 2px solid var(--col-pal2);
+   color: var(--col-pal2);
+   background-color: var(--main-light);
 }
 
 .skills-container {

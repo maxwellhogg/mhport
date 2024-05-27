@@ -1,0 +1,21 @@
+1. Place header and footer in an includes folder and include them in each page.
+
+2. Create database for projects:
+    ------------------------------------------------------------------------------------------------
+    PROJECT CARD:
+    ------------------------------------------------------------------------------------------------
+    Project Title: 100 characters max
+    Date: Date the project was uploaded
+    Tools: Use a drop down menu in the admin page to access all tools.
+    Thumbnail image: upload image to specific folder and use image filename in database to connect.
+    ------------------------------------------------------------------------------------------------
+    PROJECT PAGE:
+    All of the above will appear in the project page, plus the following:
+    Multiple image uploads
+    Full project description
+
+3. Create Contact form for easy contact.
+
+4. Animate skills progress bar using JavaScript so the user sees animation when the section is in view.
+
+5. Create a blog and a database for the blog.

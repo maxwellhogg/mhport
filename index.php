@@ -1,54 +1,8 @@
-<!doctype html>
+<?php
 
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-  	<meta name="viewport" content="width=device-width, initial-scale=1">
+include './inc/header.php'
 
-  	<title>Maxy - Web Developer | Portfolio</title>
-  	<meta name="Maxwell Hogg" content="Portfolio">
-  	<link rel="preconnect" href="https://fonts.googleapis.com">
-  	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap" rel="stylesheet">
-  	<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Gruppo&display=swap" rel="stylesheet">
-  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/common.css">
-  	<link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-	<nav>
-		<div class="pre-nav">
-			<div class="container">
-				<div class="pre-nav-container">
-					<div class="pre-nav-contacts">
-						<a class="pre-nav-link" href="">maxy.hogg@googlemail.com</a> |
-						<a class="pre-nav-link" href="">07407293295</a>
-					</div>
-					<div class="pre-nav-socials">
-						<a href="#" class="fa fa-github"></a>
-						<a href="#" class="fa fa-linkedin"></a>
-						<a href="#" class="fa fa-instagram"></a>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="nav">
-			<div class="container">
-				<div class="nav-container">
-					<div class="nav-logo">
-						<a class="nav-logo-link" href="#">Maxy Hogg</a>
-					</div>
-					<div class="nav-items">
-						<a class="nav-item" href="#">Home</a>
-						<a class="nav-item" href="#">About</a>
-						<a class="nav-item" href="#">Projects</a>
-						<a class="nav-item nav-item-contact" href="#">Contact</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</nav>
-	<main>
+?>
 		<section>
 			<div class="container">
 				<div class="hero-text">
@@ -68,14 +22,59 @@
 				<div class="container">
 					<h1 class="hero-header projects-hero-header">Projects Preview</h1>
 					<div class="project-card">
-						<img class="thumbnail" src="" alt="">
+						<img class="thumbnail" src="images/project1.png" alt="">
 						<div class="project-card-text">
 							<div class="project-date">24 May 2024</div>
 							<h2 class="project-card-title">Project One</h2>
 							<div class="separator"></div>
 							<p class="project-description">This section will give a brief description about the project and will provide a summary of the projects functions. The title and the image will be clickable and will take the user to either the live website or a page laying out the full details including full images of each page, and possibly a functionality preview if I am able to record one in Adobe XD or Figma.</p>
+							<div class="project-tools">
+								<div class="project-tool">Adobe XD</div>
+								<div class="project-tool">HTML</div>
+								<div class="project-tool">CSS</div>
+								<div class="project-tool">JavaScript</div>
+							</div>
+							<a class="project-button" href="#">See this project...</a>
 						</div>
 					</div>
+					<div class="project-card">
+						<img class="thumbnail" src="images/project2.png" alt="">
+						<div class="project-card-text">
+							<div class="project-date">24 May 2024</div>
+							<h2 class="project-card-title">Project Two</h2>
+							<div class="separator"></div>
+							<p class="project-description">This section will give a brief description about the project and will provide a summary of the projects functions. The title and the image will be clickable and will take the user to either the live website or a page laying out the full details including full images of each page, and possibly a functionality preview if I am able to record one in Adobe XD or Figma.</p>
+							<div class="project-tools">
+								<div class="project-tool">Adobe XD</div>
+								<div class="project-tool">HTML</div>
+								<div class="project-tool">CSS</div>
+								<div class="project-tool">JavaScript</div>
+							</div>
+							<a class="project-button" href="#">See this project...</a>
+						</div>
+					</div>
+					<ul class="pagination">
+						<li class="pagination-item">
+							<a class="pagination-link pagination-link-arrow" href="#">&laquo;</a>
+						</li>
+						<li class="pagination-item pagination-item-active">
+							<a class="pagination-link pagination-link-active" href="#">1</a></li>
+						<li class="pagination-item">
+							<a class="pagination-link" href="#">2</a>
+						</li>
+						<li class="pagination-item">
+							<a class="pagination-link" href="#">...</a>
+						</li>
+						<li class="pagination-item">
+							<a class="pagination-link" href="#">9</a>
+						</li>
+						<li class="pagination-item">
+							<a class="pagination-link" href="#">10</a>
+						</li>
+						<li class="pagination-item">
+							<a class="pagination-link pagination-link-arrow" href="#">&raquo;</a>
+    				</li>
+</ul>
 				</div>
 			</div>
 		</section>
@@ -125,39 +124,9 @@
 				</div>
 			</div>
 		</section>
-	</main>
-	<footer class="footer">
-		<div class="container">
-			<div class="footer-container">
-				<div class="footer-col">
-					<div class="nav-logo">
-						<a class="nav-logo-link" href="#">Maxy Hogg</a>
-					</div>
-					<div class="separator"></div>
-					<div class="footer-socials">
-						<a href="#" class="fa fa-github"></a>
-						<a href="#" class="fa fa-linkedin"></a>
-						<a href="#" class="fa fa-instagram"></a>
-					</div>
-				</div>
-				<div class="footer-col">
-					<div class="footer-contact">
-						<a class="footer-contact-link" href="">maxy.hogg@googlemail.com</a>
-						<a class="footer-contact-link" href="">07407293295</a>
-					</div>
-				</div>
-				<div class="footer-col">
-					<div class="footer-sitemap">
-						<a class="footer-sitemap-item" href="#">Home</a>
-						<a class="footer-sitemap-item" href="#">About</a>
-						<a class="footer-sitemap-item" href="#">Projects</a>
-						<a class="footer-sitemap-item" href="#">Contact</a>
-						<a class="footer-sitemap-item" href="#">Admin</a>
-					</div>
-				</div>
-			</div>
-		</div>
-		<script src="js/main.js"></script>
-	</footer>
-</body>
-</html>
+
+<?php include 
+
+'./inc/footer.php' 
+
+?>
